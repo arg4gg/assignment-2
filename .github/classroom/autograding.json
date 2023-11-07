@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Principal com entrada inválida",
+      "setup": "cabal build vendas",
+      "run": "LANG=C.UTF-8 cabal run vendas",
+      "input": "10\n-20",
+      "output": "Entrada inválida",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Principal com entradas válidas",
+      "setup": "cabal build vendas",
+      "run": "LANG=C.UTF-8 cabal run vendas",
+      "input": "10\n20",
+      "output": "O valor total da compra é R$ 167.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Função",
+      "setup": "",
+      "run": "LANG=C.UTF-8 cabal test",
+      "input": "",
+      "output": "1 of 1 test suites (1 of 1 test cases) passed.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
