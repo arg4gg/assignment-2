@@ -24,9 +24,9 @@ Digite a quantidade de Maçãs (em kg): −1
 Entrada inválida
 ```
 ```shellsession
-Digite a quantidade de Morangos (em kg): 0
-Digite a quantidade de Maçãs (em kg): 10.5
-O valor total da compra é R$ 15.75
+Digite a quantidade de morangos (em kg): 0
+Digite a quantidade de macas (em kg): 10.5
+O valor total da compra é R$ 49.875
 ```
 ```shellsession
 Digite a quantidade de Morangos (em kg): 0
@@ -34,9 +34,9 @@ Digite a quantidade de Maçãs (em kg): 0
 O valor total da compra é R$ 0.00
 ```
 ```shellsession
-Digite a quantidade de Morangos (em kg): 10.8
-Digite a quantidade de Maçãs (em kg): 5
-O valor total da compra é R$ 32.76
+Digite a quantidade de morangos (em kg): 10.8
+Digite a quantidade de macas (em kg): 5
+O valor total da compra é R$ 101.51
 ```
 
 Complete as definições em `src/*.hs` para resolver o problema proposto. O seu projeto deve passar em todos os testes fornecidos.
